@@ -1,0 +1,370 @@
+header{
+    background-image: url("../img/background1.jpg");
+    text-align: center;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    padding-top: 300px;
+    padding-bottom: 270px;
+    margin-bottom: 100px;
+}
+
+body{
+    background: #ffffff;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+}
+
+img{
+    width: 100%;
+    vertical-align: middle;
+    border-style: none;
+}
+
+section{
+    padding: 125px;
+}
+
+hr{
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    border: 0;
+    border-top: 1px solid;
+}
+
+footer{
+    background: #222;
+    padding: 20px 0; 
+}
+
+ul{
+    padding-inline-start: 0px;
+}
+
+.graybackground{
+    background: #f8f9fa;
+}
+
+.container{
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+}
+
+.center{
+    text-align: center;
+    align-items: center;
+}
+
+.intro{
+    color: #fdfbfd;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+.headline{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 75px;
+    font-weight: 500;
+    line-height: 75px;
+    text-transform: uppercase;
+    color: #222;
+
+}
+
+.col{
+    width: 80%;
+}
+
+.skill-bar{
+    list-style: none;
+    margin: 6rem 0 3rem;
+}
+
+.skill-bar li{
+    height: .6rem;
+    background: #8c8c8c;
+    width: 100%;
+    margin-bottom: 7.5rem;
+    padding: 0;
+    position: relative;
+}
+
+.skill-bar li strong{
+    position: absolute;
+    left: 0;
+    top: -3rem;
+    color: #222;
+    text-transform: uppercase;
+    letter-spacing: .2rem;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+
+.progress{
+    background: #222;
+    position: relative;
+    height: 100%;
+}
+
+.progress90{
+    width: 90%;
+}
+
+.progress83{
+    width: 83%; 
+}
+
+.progress70{
+    width: 70%;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.divideleft{
+    text-align: right;
+    padding-right: 4%;
+}
+
+.divideleft p{
+    margin-left: 15%;
+}
+
+.divideright{
+    text-align: left;
+    padding-left: 4%;
+}
+
+.divideright p{
+    margin-right: 15%;
+}
+
+.divide2{
+    flex: 0 0 50%;
+    max-width: 50%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divide2 p{
+    color: #8c8c8c;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.divide3{
+    flex: 0 0 33.333333%;
+    max-width: 33.333333%;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.divide3 p{
+    padding: 0 20px;
+    color: #8c8c8c;
+    font-size: 15px;
+} 
+
+.title{
+    color: #fdfbfd;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    line-height: 80px;
+    margin-top: 40px;
+}
+
+.title2{
+    color: #fdfbfd;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.8em;
+    line-height: 80px;
+    margin-top: 40px;
+}
+
+.title.nomargin{
+    margin: 0;
+}
+
+.subtitle{
+    font-size: 1em;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: #8c8c8c;
+}
+
+.titlemargin{
+    margin-bottom: 5%;
+}
+
+
+
+.hrright{
+    float: left;
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+    display: block;
+}
+
+.hrleft{
+    float: right;
+    border-color: #64a19d;
+    border-width: .25rem;
+    width: 30%;
+    display: block;
+}
+
+.fab, .fas{
+    padding: 15px;
+    font-size: 170px;
+    width: 170px;
+    height: 170px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+}
+
+.fas.nocircle{
+    background: none;
+    padding: auto;
+    height: 130px;
+    width: 220px;
+    margin: 0;
+}
+
+footer .fab, footer .fas{
+    padding: 15px;
+    font-size: 30px;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 100%;
+}
+
+.fa-android, .fa-chart-pie, .fa-palette{
+    background: #fed136;
+    color: #fdfbfd;
+}
+
+.fa-linkedin-in, .fa-instagram, .fa-github, .fa-graduation-cap, .fa-envelope{
+    background: #fdfbfd;
+    color: #222;
+}
+
+.changefontsize{
+    font-size: 165px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .container {
+        max-width: 1140px;
+    }
+
+    section{
+        padding: 125px;
+    }
+
+    .title{
+        font-size: 1.8em;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .container {
+        max-width: 960px;
+    }
+
+    section{
+        padding: 75px;
+    }
+
+    .title{
+        font-size: 1.4em;
+    }
+
+    .nobtmmargin{
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .container {
+        max-width: 720px;
+    }
+
+    section {
+        padding: 25px;
+    }
+
+    .title{
+        font-size: 1.2em;
+        line-height: 0px;
+        margin: 20px 0;
+    }
+
+    .nobtmmargin{
+        font-size: 1em;
+    }
+
+    hr{
+        margin-top: 0;
+        margin-bottom: 0;
+        border: 0;
+        border-top: 0;
+    }
+
+    .titlemargin{
+        margin: 40px 0;
+    }
+
+    .title.nomargin{
+        margin: 40px;
+    }
+
+    header{
+        margin-bottom: 0px;
+        padding-top: 150px;
+        padding-bottom: 150px;
+    }
+
+    .fab, .fas{
+        padding: 15px;
+        font-size: 75px;
+        width: 75px;
+        height: 75px;
+        text-align: center;
+        text-decoration: none;
+        margin: 5px 2px;
+        border-radius: 100%;
+    }
+
+    .title2{
+        color: #fdfbfd;
+        text-transform: uppercase;
+        font-weight: 600;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        font-size: 1em;
+        line-height: 0px;
+        margin: 20px 0;
+    }
+    .skill-bar li{
+        margin-bottom: 6rem;
+    }
+}
